@@ -1,0 +1,165 @@
+.about{
+    .preferences{
+        background-color: #ecf1f7;
+        h3{
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 30px;
+        }
+        &:hover{
+            #hover{
+                color: #67b930;
+            }
+        }
+    }
+    .response{
+        background-color: #fff;
+        padding: 90px 0;
+        .col-sm-12{
+            .image{
+                margin: 0 auto 30px auto;  
+            }
+        }
+        @media screen and (max-width: 768px){
+            .description{
+                text-align: center;
+            }
+        }
+        .image{
+            max-width: 269px;
+            height: 272px;
+            background-image: url(../about_img/pearson.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .description{
+            h3{
+                padding: 0 30px;
+            }
+            p{
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                color: #465053;
+                padding: 30px 30px;
+                margin-bottom: 25px;
+                position: relative;
+                float: left;
+                &::before{
+                    position: absolute; 
+                    font-size: 50pt;
+                    content: '\201c';
+                    top: -15px; 
+                    left: 0px; 
+                }
+                &::after{
+                    position: absolute; 
+                    font-size: 50pt;
+                    content: '\201d';
+                    bottom: -30px; 
+                    right: 0px;
+                }
+            }
+            span{
+                padding: 0 30px;
+                display: block;
+                line-height: 2;
+                font-family: 'Poppins',sans-serif;
+            }
+            .colored{
+                color: #f74242;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+        }
+    }
+    h3{
+        @include about_h3;
+    }
+    i{
+        color: #f74242;
+        font-size: 42px;
+        padding-bottom: 20px;
+    }
+    .item{
+        height: 200px;
+        overflow: hidden;
+        background-color: #fff;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        -webkit-box-shadow: 0px 22px 41px -17px rgba(204,204,204,0.79);
+        -moz-box-shadow: 0px 22px 41px -17px rgba(204,204,204,0.79);
+        box-shadow: 0px 22px 41px -17px rgba(204,204,204,0.79);
+        p{
+            color: #10242b;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+        }
+        img{
+            height:42px;
+            margin-bottom: 20px;
+        }
+    }
+    footer {
+        background: #0b0f12;
+        width: 100%;
+        padding: 99px 0;
+        display: flex;
+        justify-content: center;
+        h6 {
+            @include about_h6;
+        }
+        ul {
+            padding-left: 0;
+            margin: 0 auto;
+        }
+        li {
+            font-size: 15px;
+            font-family: "Myriad Pro";
+            color: rgb(197, 197, 197);
+            line-height: 2.467;
+            text-align: left;
+            text-decoration: none;
+            list-style: none;
+                a {
+                    @include about_a;
+                }
+        }
+        .Newsletter {
+            p {
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+                color: rgb(100, 103, 106);
+                line-height: 2;
+                text-align: left;
+            }
+            .input {
+                display: flex;
+                flex-shrink: 2,3;
+                input[type=submit] {
+                    width: 124px;
+                    height: 51px;
+                    background-color: rgb(103, 185, 48);
+                    color: #fff;
+                    border: 0;
+                }
+                input[type=email] {
+                    width: 247px;
+                    height: 51px;
+                    border-radius: 3px;
+                    background-color: rgb(37, 38, 39);
+                    border: 0;
+                    font-size: 14.5px;
+                    font-family: "Myriad Pro";
+                    color: rgb(236, 236, 236);
+                    line-height: 2.069;
+                    padding: 17px;
+                }
+            }
+        }
+    }
+} 

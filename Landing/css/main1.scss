@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-blend-mode: multiply;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{ 
+    display: flex;
+    margin-bottom: 0;
+}
+.top-line {
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+
+    li{
+        white-space: nowrap;
+        display: flex; 
+        align-items: center; }
+
+    a{
+        font-family: "Roboto Black", sans-serif;
+        font-weight:bold;
+        font-size: 11px;
+        color: black;
+        text-decoration: none;}
+    a:hover{
+        color: red;}
+    .phone{
+        margin-top: -10px;
+        padding-top: 10px;
+        border-top: solid 2px green;
+        display: flex;
+        img{
+            margin: 0 10px;
+        }
+        span{
+            font-size: 13px;
+            color: gray
+        }
+        a{
+            display: block;
+            font-size: 15px;
+            color: black;
+        }
+    }
+}
+
+.main-menu li {
+    display: block;
+    width: 100%;
+}
+
+.banner{
+    img{
+        width: 100%;}
+        h3{
+            position: absolute;
+            margin: 6% 0; 
+            color: #fff
+        }
+}
+
+
+
+
+.about{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    .head_title{
+        text-align: center;
+        font-family: 'Montserrat';
+
+        font-style: normal;
+        h3{
+            font-weight: 600;
+        }
+    }
+    .single_about{ 
+        margin: 30px 40px 30px 0px;
+         .single_about_title{
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-style: normal;
+             display: flex;
+             h1{
+                width: 53px;
+             }
+             h6{
+                 margin: 5px;
+                 font-weight: 600;
+             }
+             
+         }
+    }
+    .single_about_content{ 
+        font-size: 12.5px;
+        margin:30px;
+        margin: 10px 5px;
+        
+        
+    }
+    .buttons{
+        display: flex;
+    }
+    .home_btn a {
+        border: none;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-style: normal;
+        display: inline-block;
+        min-width: 130px;
+        padding: 0.9em;
+        height: 45px;
+        text-align: center;
+        margin: 20px 20px 20px 0px;
+        font-size: 13px;
+        border-radius: 3px;
+        color: white;
+        background-color: #00e658;
+        transition: 1s ease-out;
+    }
+    .right a {
+        border: 1px solid gray;
+        color: gray;
+        background-color: transparent;
+    }
+
+}
