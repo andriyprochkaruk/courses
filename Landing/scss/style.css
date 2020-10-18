@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+.about .preferences {
+  background-color: #ecf1f7; }
+  .about .preferences h3 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px; }
+  .about .preferences:hover #hover {
+    color: #67b930; }
+.about .response {
+  background-color: #fff;
+  padding: 90px 0; }
+  .about .response .col-sm-12 .image {
+    margin: 0 auto 30px auto; }
+  @media screen and (max-width: 768px) {
+    .about .response .description {
+      text-align: center; } }
+  .about .response .image {
+    max-width: 269px;
+    height: 272px;
+    background-image: url(../about_img/pearson.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .about .response .description h3 {
+    padding: 0 30px; }
+  .about .response .description p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #465053;
+    padding: 30px 30px;
+    margin-bottom: 25px;
+    position: relative;
+    float: left; }
+    .about .response .description p::before {
+      position: absolute;
+      font-size: 50pt;
+      content: '\201c';
+      top: -15px;
+      left: 0px; }
+    .about .response .description p::after {
+      position: absolute;
+      font-size: 50pt;
+      content: '\201d';
+      bottom: -30px;
+      right: 0px; }
+  .about .response .description span {
+    padding: 0 30px;
+    display: block;
+    line-height: 2;
+    font-family: 'Poppins',sans-serif; }
+  .about .response .description .colored {
+    color: #f74242;
+    text-transform: uppercase;
+    font-weight: 600; }
+.about h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #10242b; }
+.about i {
+  color: #f74242;
+  font-size: 42px;
+  padding-bottom: 20px; }
+.about .item {
+  height: 200px;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  -webkit-box-shadow: 0px 22px 41px -17px rgba(204, 204, 204, 0.79);
+  -moz-box-shadow: 0px 22px 41px -17px rgba(204, 204, 204, 0.79);
+  box-shadow: 0px 22px 41px -17px rgba(204, 204, 204, 0.79); }
+  .about .item p {
+    color: #10242b;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif; }
+  .about .item img {
+    height: 42px;
+    margin-bottom: 20px; }
+.about footer {
+  background: #0b0f12;
+  width: 100%;
+  padding: 99px 0;
+  display: flex;
+  justify-content: center; }
+  .about footer h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    color: white;
+    line-height: 1.238;
+    text-align: left; }
+  .about footer ul {
+    padding-left: 0;
+    margin: 0 auto; }
+  .about footer li {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: #c5c5c5;
+    line-height: 2.467;
+    text-align: left;
+    text-decoration: none;
+    list-style: none; }
+    .about footer li a {
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+      color: #64676a;
+      line-height: 2.467;
+      text-align: left; }
+  .about footer .Newsletter p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #64676a;
+    line-height: 2;
+    text-align: left; }
+  .about footer .Newsletter .input {
+    display: flex;
+    flex-shrink: 2,3; }
+    .about footer .Newsletter .input input[type=submit] {
+      width: 124px;
+      height: 51px;
+      background-color: #67b930;
+      color: #fff;
+      border: 0; }
+    .about footer .Newsletter .input input[type=email] {
+      width: 247px;
+      height: 51px;
+      border-radius: 3px;
+      background-color: #252627;
+      border: 0;
+      font-size: 14.5px;
+      font-family: "Myriad Pro";
+      color: #ececec;
+      line-height: 2.069;
+      padding: 17px; }
+
+/*# sourceMappingURL=style.css.map */
